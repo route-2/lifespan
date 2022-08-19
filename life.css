@@ -1,0 +1,115 @@
+.container
+{
+text-align: center;
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgb(147, 223, 233);
+    width: 20vw;
+    height: 800px;
+    margin:30px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0 ,0 , 0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    border-top: 0px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+    
+}
+.container h1 {
+    color: #fff;
+    text-shadow: 2px 2px 2px #030303;
+    font-style: italic;
+}
+.container p {
+    text-shadow: 2px 2px 2px #030303;
+    font-style: italic;
+    color: #fff;
+}
+*
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(sky.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ #displayResult
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 48, 158);
+    height: 160px;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#result
+{ 
+    font-size: 2rem; 
+}
+#ageInput
+{
+    width:100%;
+    border: none;
+    background-color: rgba(248,248,248,0.4);
+margin-bottom: 10px;
+padding: 10px;
+text-align: center;
+color: black;
+font-size: 1.4rem;
+font-weight: bold;
+text-shadow: 2px 2px 2px rgba(26,25,25,0.4);
+
+
+}
+.buttons
+{
+    display: flex;
+    flex-direction:column;
+    justify-content : center;
+    align-items: center;
+}
+.buttons .refresh
+{
+    display: none;
+}
+.alert1.active 
+{
+    display: block;
+
+}
+.alert2.active 
+{
+    display: block;
+}
+.btn:active {
+    transform: scale(0.98);
+}
+.alert1 {
+    display: none;
+}
+.alert2 {
+    display: none;
+}
+.answer
+{
+    display: none;
+}
